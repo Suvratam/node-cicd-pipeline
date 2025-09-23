@@ -29,8 +29,8 @@ A simple **Node.js Express routing app** containerized with Docker and automated
 Fork the repo or clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/node-cicd-pipeline.git
-cd node-cicd-pipeline/node_web_app
+git clone https://github.com/<your-username>/nodejs-demo-app.git
+cd nodejs-demo-app/node_web_app
 ```
 
 Install dependencies:
