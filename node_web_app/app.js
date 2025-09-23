@@ -13,7 +13,3 @@ app.use(express.json());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-// Start server
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
