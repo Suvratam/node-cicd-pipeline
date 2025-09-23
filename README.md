@@ -1,6 +1,5 @@
 # node-cicd-pipeline
-Creation of an automated workflow to test, build, and deploy a Node.js project using GitHub Actions
-# Node.js Routing App with Docker and CI/CD
+Creation of an automated workflow to test, build, and deploy a Node.js project using GitHub Actions Node.js Routing App with Docker and CI/CD
 A simple **Node.js Express routing app** containerized with Docker and automated with **GitHub Actions** for CI/CD.
 
 ---
@@ -85,11 +84,10 @@ git push origin v1.0.0
 # GitHub Secrets
 
 For CI/CD to push Docker images, add the following secrets in your repository settings:
-```
-- Secret Name	Value
-- DOCKER_USERNAME	Your Docker Hub username
-- DOCKER_PASSWORD	Your Docker Hub password/token
-```
+<br><br>
+Secret Name	Value
+>  DOCKER_USERNAME	Your Docker Hub username<br>
+>  DOCKER_PASSWORD	Your Docker Hub password/token
 
 ## Notes
 ...
