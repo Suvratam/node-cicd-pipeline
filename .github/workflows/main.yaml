@@ -22,10 +22,12 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
+        working-directory: node_web_app
         run: npm install
 
       - name: Run tests
-        run: echo "No tests yet" 
+        working-directory: node_web_app
+        run: npm test
   
   docker:
     name: Build and Push Docker Image
